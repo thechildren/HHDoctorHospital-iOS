@@ -49,6 +49,8 @@
     
     self.phonenumber.frame = CGRectMake(60, width - 200, width - 120, 60);
     
+    self.phonenumber.placeholder = @"请输入手机号加密后的值";
+    
     self.phonenumber.font = [UIFont systemFontOfSize:18];
     self.phonenumber.textColor = [UIColor blackColor];
     self.phonenumber.textAlignment = NSTextAlignmentCenter;

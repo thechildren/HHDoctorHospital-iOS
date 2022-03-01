@@ -4,53 +4,46 @@
 
 ### 方法调用
 
-1、SDK初始化方法（Application中）：
+1、进入互联网医院：
 
-    HHDoctorSDK.initSDK(Application application);
-
-2、进入互联网医院：
-
-    HHDoctorSDK.openHospital(Activity activity,String phone);
+        [HHDoctorSDK openHospital:phone partid:@"机构号" partcode:@"机构代码加密" uiview:UIViewController];
     
     （phone：加密后的手机号）
    
    
-### 参数配置
+### 配置
 
-（一）、AndroidManifest的application标签下增加：
+（一）、组件配置
 
-    <meta-data
-        android:name="partid"
-        android:value="填写获取到的机构号"/>
-    <meta-data
-        android:name="partcode"
-        android:value="填写获取到的机构代码加密"/>
+    将Demo中HHDoctorVideo.framework拖入项目目录
         
         
-（二）、根层build.gradle下添加：
+（二）、Podfile中添加：
 
-    maven {
-        url 'https://maven.aliyun.com/repository/public'
-    }
-    maven {
-      credentials {
-          username '开发人员用户名'
-          password '开发人员密码'
-     }
-        url 'https://packages.aliyun.com/maven/repository/2190323-release-1mIn35/'
-    }
-    maven {
-     credentials {
-           username '开发人员用户名'
-           password '开发人员密码'
-    }
-        url 'https://packages.aliyun.com/maven/repository/2190323-snapshot-cGH0Qq/'
-    }
+      pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
+      
+      其余需根据项目原有内容配置，如果没有，则添加
+      
+      pod 'JXBWebKit', '~> 1.3.0'
+      pod 'AFNetworking', '~> 3.0'
+      pod 'Masonry', '~> 1.0.1'
+      pod 'MBProgressHUD', '~> 1.1.0'
+      pod 'IQKeyboardManager'
+      pod 'SVProgressHUD', '~> 2.2.5'
+      pod 'AlicloudHTTPDNS', '~> 1.19.2.6'
+      pod 'FMDB', '~> 2.7.5'
+      pod 'MJExtension', '~> 3.2.2'
+      pod 'GPUImage', '~> 0.1.7'
+      pod 'SDWebImage', '~>3.8'
+      pod 'MJRefresh'
+      
+      
  
- （三）、子build.gradle下添加：
+ （三）、其他集成方式：
  
-    implementation 'com.chuangjin:HHDoctorSDK:1.1.9'
+    pod 'HHDoctorVideo', '~> 1.2.0'（打包上传测试中，请先使用步骤一、二）
     
-  （四）、Android-Demo：
+ （四）、iOS-Demo：
   
-    https://www.pgyer.com/27iv
+    https://www.pgyer.com/7SFW
+    (请联系技术添加UUID)

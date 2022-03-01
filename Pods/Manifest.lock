@@ -23,7 +23,6 @@ PODS:
     - NIMSDK
   - HHDoctorSDK/Base (2.5.64.060617):
     - NIMSDK
-  - HHDoctorVideo (1.0.1)
   - IQKeyboardManager (6.5.9)
   - JXBWebKit (1.3.0)
   - Masonry (1.0.2)
@@ -31,9 +30,6 @@ PODS:
   - MJExtension (3.2.4)
   - MJRefresh (3.7.5)
   - NIMSDK (9.0.0)
-  - Realm (10.22.0):
-    - Realm/Headers (= 10.22.0)
-  - Realm/Headers (10.22.0)
   - SDWebImage (3.8.3):
     - SDWebImage/Core (= 3.8.3)
   - SDWebImage/Core (3.8.3)
@@ -48,14 +44,12 @@ DEPENDENCIES:
   - FMDB (~> 2.7.5)
   - GPUImage (~> 0.1.7)
   - HHDoctorSDK (from `http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git`, branch `feature/swift5.2`)
-  - HHDoctorVideo (~> 1.0.1)
   - IQKeyboardManager
   - JXBWebKit (~> 1.3.0)
   - Masonry (~> 1.0.1)
   - MBProgressHUD (~> 1.1.0)
   - MJExtension (~> 3.2.2)
   - MJRefresh
-  - Realm
   - SDWebImage (~> 3.8)
   - SVProgressHUD (~> 2.2.5)
 
@@ -78,9 +72,7 @@ SPEC REPOS:
     - SVProgressHUD
   trunk:
     - AFNetworking
-    - HHDoctorVideo
     - NIMSDK
-    - Realm
 
 EXTERNAL SOURCES:
   HHDoctorSDK:
@@ -101,7 +93,6 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   HHDoctorSDK: b579649a51dc98a1bd9a7ce18e692d49ae191471
-  HHDoctorVideo: a3807ecdad74db90749b92480382d24d00af6a1e
   IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
   JXBWebKit: 7af9f6581e17d706b52a0979d4ed0dbaef52bccc
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -109,10 +100,9 @@ SPEC CHECKSUMS:
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   NIMSDK: c1146912df34c45bebc849f21d4a5185041bd9b1
-  Realm: d9e4e5877095a6722145811f56fe89a531c9659d
   SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 87e45951af6d05f0d35a3acdce3856216e2b8de8
+PODFILE CHECKSUM: b475e3db8c3bc9d08975439fb5c35b4b5f4451b5
 
 COCOAPODS: 1.11.2

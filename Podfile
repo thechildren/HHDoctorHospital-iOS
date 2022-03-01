@@ -20,15 +20,13 @@ target 'sdkproject' do
   pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
   pod 'SVProgressHUD', '~> 2.2.5'
   pod 'AlicloudHTTPDNS', '~> 1.19.2.6'
-  #数据库
-  pod 'Realm'
   pod 'FMDB', '~> 2.7.5'
   pod 'MJExtension', '~> 3.2.2'
   pod 'GPUImage', '~> 0.1.7'
   pod 'SDWebImage', '~>3.8'
   pod 'MJRefresh'
   
-  pod 'HHDoctorVideo', '~> 1.0.1'
+#  pod 'HHDoctorVideo', '~> 1.0.1'
   
   target 'sdkprojectTests' do
     inherit! :search_paths
