@@ -142,6 +142,7 @@
 		B44EB37327C320C600BBD764 = {
 			isa = PBXGroup;
 			children = (
+				B442922227D1E25F00A8C3F6 /* README.md */,
 				B44EB37E27C320C600BBD764 /* sdkproject */,
 				B44EB39A27C320C900BBD764 /* sdkprojectTests */,
 				B44EB3A427C320C900BBD764 /* sdkprojectUITests */,
@@ -178,7 +179,6 @@
 				B44EB39027C320C800BBD764 /* Info.plist */,
 				B44EB39127C320C800BBD764 /* main.m */,
 				B4A47EF627C75B7E004106F1 /* sdkproject-Bridging-Header.h */,
-				B442922227D1E25F00A8C3F6 /* README.md */,
 			);
 			path = sdkproject;
 			sourceTree = "<group>";
