@@ -11,17 +11,16 @@
     （phone：加密后的手机号）
    
    
-### 配置
+### 集成配置
 
-（一）、组件配置
+（一）、Podfile中添加：
 
-    1、将Demo中HHDoctorVideo.framework拖入项目目录
-    2、将Demo中HHDoctorVideo.bundle拖入项目目录
+    pod 'HHDoctorVideo', :git => "https://gitee.com/neighourchild/hhdoctor-hospital-i-os.git",:tag => '1.4.0'
+    
+    pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
         
         
 （二）、Podfile中添加：
-
-      pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
       
       其余需根据项目原有内容配置，如果没有，则添加
       
@@ -38,13 +37,8 @@
       pod 'SDWebImage', '~>3.8'
       pod 'MJRefresh'
       
-      
- 
- （三）、其他集成方式：
- 
-    pod 'HHDoctorVideo', '~> 1.2.0'（打包上传测试中，请先使用步骤一、二）
     
- （四）、iOS-Demo：
+ （三）、iOS-Demo：
   
     https://www.pgyer.com/7SFW
     (请联系技术添加UUID)

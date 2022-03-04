@@ -14,6 +14,7 @@
 		B43C0FEE27CBE97E003B8468 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FEB27CBE958003B8468 /* libsqlite3.0.tbd */; };
 		B43C0FEF27CBE985003B8468 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FEC27CBE95F003B8468 /* libz.tbd */; };
 		B43C0FF427CBE99A003B8468 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FDC27CBE90C003B8468 /* MobileCoreServices.framework */; };
+		B442922327D1E25F00A8C3F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B442922227D1E25F00A8C3F6 /* README.md */; };
 		B44EB38127C320C600BBD764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38027C320C600BBD764 /* AppDelegate.m */; };
 		B44EB38427C320C600BBD764 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38327C320C600BBD764 /* SceneDelegate.m */; };
 		B44EB38727C320C600BBD764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38627C320C600BBD764 /* ViewController.m */; };
@@ -66,6 +67,7 @@
 		B43C0FEA27CBE950003B8468 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B43C0FEB27CBE958003B8468 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		B43C0FEC27CBE95F003B8468 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B442922227D1E25F00A8C3F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B44EB37C27C320C600BBD764 /* sdkproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdkproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44EB37F27C320C600BBD764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B44EB38027C320C600BBD764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				B44EB39027C320C800BBD764 /* Info.plist */,
 				B44EB39127C320C800BBD764 /* main.m */,
 				B4A47EF627C75B7E004106F1 /* sdkproject-Bridging-Header.h */,
+				B442922227D1E25F00A8C3F6 /* README.md */,
 			);
 			path = sdkproject;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			files = (
 				B44EB38F27C320C800BBD764 /* LaunchScreen.storyboard in Resources */,
 				B492852627CC708B0061A4B6 /* InfoPlist.strings in Resources */,
+				B442922327D1E25F00A8C3F6 /* README.md in Resources */,
 				B44EB38C27C320C800BBD764 /* Assets.xcassets in Resources */,
 				B44EB38A27C320C600BBD764 /* Main.storyboard in Resources */,
 			);

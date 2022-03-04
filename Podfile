@@ -24,7 +24,7 @@ target 'sdkproject' do
   pod 'SDWebImage', '~>3.8'
   pod 'MJRefresh'
   
-  pod 'HHDoctorVideo', :git => "https://gitee.com/neighourchild/hhdoctor-hospital-i-os.git",:tag => '1.2.6'
+  pod 'HHDoctorVideo', :git => "https://gitee.com/neighourchild/hhdoctor-hospital-i-os.git",:tag => '1.4.0'
   
   target 'sdkprojectTests' do
     inherit! :search_paths
