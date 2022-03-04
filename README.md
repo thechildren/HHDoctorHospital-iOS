@@ -15,7 +15,8 @@
 
 （一）、组件配置
 
-    将Demo中HHDoctorVideo.framework拖入项目目录
+    1、将Demo中HHDoctorVideo.framework拖入项目目录
+    2、将Demo中HHDoctorVideo.bundle拖入项目目录
         
         
 （二）、Podfile中添加：

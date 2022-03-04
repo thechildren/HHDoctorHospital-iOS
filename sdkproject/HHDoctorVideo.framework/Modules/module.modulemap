@@ -1,4 +1,0 @@
-framework module HHDoctorVideo {
-  header "HHDoctorVideo/HHDoctorVideo-Bridging-Header.h"
-  requires objc
-}

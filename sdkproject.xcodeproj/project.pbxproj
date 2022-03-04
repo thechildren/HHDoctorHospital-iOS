@@ -14,7 +14,6 @@
 		B43C0FEE27CBE97E003B8468 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FEB27CBE958003B8468 /* libsqlite3.0.tbd */; };
 		B43C0FEF27CBE985003B8468 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FEC27CBE95F003B8468 /* libz.tbd */; };
 		B43C0FF427CBE99A003B8468 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C0FDC27CBE90C003B8468 /* MobileCoreServices.framework */; };
-		B44048BF27CDEB3F002FF8BD /* HHDoctorVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44048BE27CDEB3E002FF8BD /* HHDoctorVideo.framework */; };
 		B44EB38127C320C600BBD764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38027C320C600BBD764 /* AppDelegate.m */; };
 		B44EB38427C320C600BBD764 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38327C320C600BBD764 /* SceneDelegate.m */; };
 		B44EB38727C320C600BBD764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EB38627C320C600BBD764 /* ViewController.m */; };
@@ -67,7 +66,6 @@
 		B43C0FEA27CBE950003B8468 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B43C0FEB27CBE958003B8468 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		B43C0FEC27CBE95F003B8468 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		B44048BE27CDEB3E002FF8BD /* HHDoctorVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HHDoctorVideo.framework; sourceTree = "<group>"; };
 		B44EB37C27C320C600BBD764 /* sdkproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdkproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44EB37F27C320C600BBD764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B44EB38027C320C600BBD764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				B43C0FED27CBE975003B8468 /* libc++.tbd in Frameworks */,
 				B43C0FEF27CBE985003B8468 /* libz.tbd in Frameworks */,
 				B43C0FEE27CBE97E003B8468 /* libsqlite3.0.tbd in Frameworks */,
-				B44048BF27CDEB3F002FF8BD /* HHDoctorVideo.framework in Frameworks */,
 				B43C0FF427CBE99A003B8468 /* MobileCoreServices.framework in Frameworks */,
 				6C8F65DDF5A6CCBC38D17433 /* Pods_sdkproject.framework in Frameworks */,
 			);
@@ -165,7 +162,6 @@
 		B44EB37E27C320C600BBD764 /* sdkproject */ = {
 			isa = PBXGroup;
 			children = (
-				B44048BE27CDEB3E002FF8BD /* HHDoctorVideo.framework */,
 				B492852227CC708B0061A4B6 /* 语言包 */,
 				B44EB37F27C320C600BBD764 /* AppDelegate.h */,
 				B44EB38027C320C600BBD764 /* AppDelegate.m */,
@@ -721,7 +717,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -778,7 +774,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -812,7 +808,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PB7TWX3DU7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangjin.yunyi.sdkprojectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -832,7 +828,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PB7TWX3DU7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangjin.yunyi.sdkprojectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

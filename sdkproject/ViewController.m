@@ -59,15 +59,34 @@
     
     [self.view addSubview:self.phonenumber];
     
+    @try {
+        NSUserDefaults *userDefaults = [[NSUserDefaults alloc]init];
+        NSString *getStr = [userDefaults objectForKey:@"phonesecert"];
+        
+        if(getStr!=nil&&![getStr isEqualToString:@""]){
+            //临时存储
+            [HHDoctorSDK openHospital:getStr partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
+        }
+    }@catch (NSException *exception) {
+        NSLog(@"question%@", exception);
+    }
     
 }
 
 
 #pragma mark- 互联网医院
 - (void)showhospital:(UITapGestureRecognizer *)recognizer {
-    NSLog(@"mapshow");
+    NSLog(@"show");
+    @try {
+        [HHDoctorSDK openHospital:self.phonenumber.text partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
     
-    [HHDoctorSDK openHospital:self.phonenumber.text partid:@"10282" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
+        NSUserDefaults *userDefaults = [[NSUserDefaults alloc]init];
+        [userDefaults setObject:self.phonenumber.text forKey:@"phonesecert"];
+        [userDefaults synchronize];
+        
+    }@catch (NSException *exception) {
+        NSLog(@"question%@", exception);
+    }
     
 //    H5ViewController *vc = [[H5ViewController alloc]init];
 //    vc.furl = [NSString stringWithFormat:@"https://m.chiyangjj.com/run/appmobile.php?r=diypage&id=617&token=b89aa6aa39582a4ce9c7318335b33b2b&mobile=17864213635&phone=17864213635&model="];

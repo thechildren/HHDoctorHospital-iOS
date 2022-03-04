@@ -3,12 +3,10 @@ source 'https://github.com/aliyun/aliyun-specs.git'
 source 'https://cdn.cocoapods.org/'
 
 platform :ios, '12.0'
+
 inhibit_all_warnings!
 
 target 'sdkproject' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-  use_frameworks!
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'JXBWebKit', '~> 1.3.0'
@@ -26,7 +24,7 @@ target 'sdkproject' do
   pod 'SDWebImage', '~>3.8'
   pod 'MJRefresh'
   
-#  pod 'HHDoctorVideo', '~> 1.0.1'
+  pod 'HHDoctorVideo', :git => "https://gitee.com/neighourchild/hhdoctor-hospital-i-os.git",:tag => '1.2.6'
   
   target 'sdkprojectTests' do
     inherit! :search_paths
