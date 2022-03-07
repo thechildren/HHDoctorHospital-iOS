@@ -9,7 +9,7 @@
 //#import <HHDoctorHospital/H5ViewController.h>
 //#import <sdkshow/H5ViewController.h>
 #import <HHDoctorVideo/H5ViewController.h>
-#import <HHDoctorVideo/HHDoctorSDK.h>
+#import <HHDoctorVideo/DoctorSDK.h>
 
 @interface ViewController ()
 
@@ -65,7 +65,7 @@
         
         if(getStr!=nil&&![getStr isEqualToString:@""]){
             //临时存储
-            [HHDoctorSDK openHospital:getStr partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
+            [DoctorSDK openHospital:getStr partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
         }
     }@catch (NSException *exception) {
         NSLog(@"question%@", exception);
@@ -78,7 +78,7 @@
 - (void)showhospital:(UITapGestureRecognizer *)recognizer {
     NSLog(@"show");
     @try {
-        [HHDoctorSDK openHospital:self.phonenumber.text partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
+        [DoctorSDK openHospital:self.phonenumber.text partid:@"10021" partcode:@"OFNUaTl1d3hndFZkQkhDUnBZYjBaZz09" uiview:self];
     
         NSUserDefaults *userDefaults = [[NSUserDefaults alloc]init];
         [userDefaults setObject:self.phonenumber.text forKey:@"phonesecert"];

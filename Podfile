@@ -9,22 +9,22 @@ inhibit_all_warnings!
 target 'sdkproject' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'JXBWebKit', '~> 1.3.0'
-  pod 'AFNetworking', '~> 3.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
-  pod 'Masonry', '~> 1.0.1'
-  use_frameworks!
-  pod 'MBProgressHUD', '~> 1.1.0'
-  pod 'IQKeyboardManager'
-  pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
-  pod 'SVProgressHUD', '~> 2.2.5'
-  pod 'AlicloudHTTPDNS', '~> 1.19.2.6'
-  pod 'FMDB', '~> 2.7.5'
-  pod 'MJExtension', '~> 3.2.2'
-  pod 'GPUImage', '~> 0.1.7'
-  pod 'SDWebImage', '~>3.8'
-  pod 'MJRefresh'
+#  pod 'JXBWebKit', '~> 1.3.0'
+#  pod 'AFNetworking', '~> 3.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
+#  pod 'Masonry', '~> 1.0.1'
+#  use_frameworks!
+#  pod 'MBProgressHUD', '~> 1.1.0'
+#  pod 'IQKeyboardManager'
+#  pod 'HHDoctorSDK', :git => "http://code.hh-medic.com/shijian/HHDoctorSDK.ios.open.git",:branch => 'feature/swift5.2'
+#  pod 'SVProgressHUD', '~> 2.2.5'
+#  pod 'AlicloudHTTPDNS', '~> 1.19.2.6'
+#  pod 'FMDB', '~> 2.7.5'
+#  pod 'MJExtension', '~> 3.2.2'
+#  pod 'GPUImage', '~> 0.1.7'
+#  pod 'SDWebImage', '~>3.8'
+#  pod 'MJRefresh'
   
-  pod 'HHDoctorVideo', :git => "https://gitee.com/neighourchild/hhdoctor-hospital-i-os.git",:tag => '1.4.0'
+  pod 'HospitalDoctor', :git => "https://gitee.com/mydrant/Hospital-Doctor.git",:tag => '1.8.7'
   
   target 'sdkprojectTests' do
     inherit! :search_paths

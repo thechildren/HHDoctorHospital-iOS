@@ -97,13 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/HHDoctorSDK/HHDoctorSDK/resources/SecurityKit.bundle"
-  install_resource "${PODS_ROOT}/HHDoctorVideo/HHDoctorVideo.bundle"
+  install_resource "${PODS_ROOT}/HospitalDoctor/HHDoctorVideo.bundle"
+  install_resource "${PODS_ROOT}/HospitalDoctor/HHDoctorSDK/resources/SecurityKit.bundle"
   install_resource "${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/HHDoctorSDK/HHDoctorSDK/resources/SecurityKit.bundle"
-  install_resource "${PODS_ROOT}/HHDoctorVideo/HHDoctorVideo.bundle"
+  install_resource "${PODS_ROOT}/HospitalDoctor/HHDoctorVideo.bundle"
+  install_resource "${PODS_ROOT}/HospitalDoctor/HHDoctorSDK/resources/SecurityKit.bundle"
   install_resource "${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle"
 fi
 

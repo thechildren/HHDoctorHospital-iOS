@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-sdkproject-sdkprojectUITests/Pods-sdkproject-sdkprojectUITests-resources.sh
-${PODS_ROOT}/HHDoctorSDK/HHDoctorSDK/resources/SecurityKit.bundle
-${PODS_ROOT}/HHDoctorVideo/HHDoctorVideo.bundle
+${PODS_ROOT}/HospitalDoctor/HHDoctorVideo.bundle
+${PODS_ROOT}/HospitalDoctor/HHDoctorSDK/resources/SecurityKit.bundle
 ${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle

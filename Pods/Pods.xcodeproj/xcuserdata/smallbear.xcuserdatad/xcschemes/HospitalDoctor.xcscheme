@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837A030AEB71FBE61CB1FFE2C1F20732"
-               BuildableName = "HHDoctorSDK"
-               BlueprintName = "HHDoctorSDK"
+               BlueprintIdentifier = "9E9F0EEEB181CEEC62BEB190B828F2BA"
+               BuildableName = "HospitalDoctor"
+               BlueprintName = "HospitalDoctor"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
