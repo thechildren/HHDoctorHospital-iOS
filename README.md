@@ -6,7 +6,7 @@
 
 1、进入互联网医院：
 
-        [HHDoctorSDK openHospital:phone partid:@"机构号" partcode:@"机构代码加密" uiview:UIViewController];
+        [DoctorSDK openHospital:phone partid:@"机构号" partcode:@"机构代码加密" uiview:UIViewController];
     
     （phone：加密后的手机号）
    
